@@ -1,5 +1,7 @@
-# Given a data basis (in "txt" format) of chirotopes of uniform oriented matroids,
-# this program computes their O-vector.
+# description: Given a database (in "txt" format) of chirotopes of uniform oriented matroids,
+#              this program computes the o-vector of those matroids and save the
+#              outcomes in a text file.
+# (c) 2023 Rangel Hernández-Ortiz, Kolja Knauer, Luis Pedro Montejano
 from korthogonal import support_basis, support_circuits, create_circuits, convert_chirotope, Ovector_matroid
 
 r = 5   # rank of the matroid
